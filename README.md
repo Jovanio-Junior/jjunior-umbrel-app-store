@@ -1,42 +1,17 @@
-# Dennys Umbrel App Store ☂️
+## Umbrel Community App Store Template
 
-This repository contains my custom Umbrel App Store. Unlike the official store, this one is entirely community-driven and independently maintained. It offers apps created and shared by the community, but it is important to note that this store is not affiliated with or supported by the official Umbrel team. All updates, management, and content in this app store are handled independently. I run this App Store just for fun.
+This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
 
+## How to use:
 
-🔀 I am open to app suggestions and will do my best to implement them. Additionally, I plan to occasionally submit pull requests to the official Umbrel App repository over time.
+1. Start by clicking the "Use this template" button located above.
+2. Assign an ID and name to your app store within the `umbrel-app-store.yml` file. This file specifies two important attributes:
+    - `id` - Acts as a unique prefix for every app within your Community App Store. You must start your application's ID with your app store's ID. For instance, in this template, the app store ID is `jovanio`, and there's an app named `hello world`. Consequently, the app's ID should be: `jovanio-hello-world`.
+    - `name` - This is the name of the Community App Store displayed in the umbrelOS UI.
+3. Change the name of the `jovanio-hello-world` folder to match your app's ID. The app ID is for you to decide. For example, if your app store ID is `whistles`, and your app is named My Video Downloader, you could set its app ID to `whistles-my-video-downloader`, and rename the folder accordingly.
+4. Next, enter your app's listing details in the `whistles-my-video-downloader/umbrel-app.yml`. These are displayed in the umbrelOS UI.
+5. Include the necessary Docker services in `whistles-my-video-downloader/docker-compose.yml`.
+6. That's it! Your Community App Store, featuring your unique app, is now set up and ready to go. To use your Community App Store, you can add its GitHub url the umbrelOS user interface as shown in the following demo:
 
-&nbsp; 
-
-#### You enjoy my work? I enjoy a beer!
-
-[![Bitcoin](https://imgur.com/rNMrbPr.png)](#) &nbsp;
-[![Lightning](https://imgur.com/0QrGiUQ.png)](https://tip.md/dennysubke) &nbsp;
-[![PayNym](https://imgur.com/5PTx1Zz.png)](https://paynym.rs/+bulkypackage58) &nbsp;
-[![Buy Me a Coffee](https://imgur.com/kUp2xPe.png)](https://buymeacoffee.com/dennysubke) &nbsp;
-[![Ko-fi](https://imgur.com/0SP9FAN.png)](https://ko-fi.com/dennysubke)
-
-
-##
-
-### Currently available apps
-
-| Nr. | Logo | App-Name | Description | Port |
-| :---: | :---: | :-- | :-- | :---: |
-| 1 | <img height="30" src="https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/logo.png" /> | [TaskTrove](https://github.com/dohsimpson/TaskTrove) | A task manager that respects your privacy | 3493 |
-| 2 | <img height="30" src="https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/logo.png" /> | [Stremio](https://github.com/tsaridas/stremio-docker) | An all-in-one streaming hub for all your entertainment needs | 10470 |
-
-
-
-🔄 All Apps are continually updated and new Apps are added over time.
-
-##
-
-### ⚠️ How to add the App Store:
 
 https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
-
-&nbsp;
-
-For further help and support: https://community.umbrel.com/
-
-##
