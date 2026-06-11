@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jovanio-brave
 name: Brave
 tagline: A browser that puts you first
-icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-brave/logo.png
+icon: https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-brave/logo.png
 category: networking
 version: "1.79.126"
 port: 3934
@@ -28,15 +28,15 @@ description: >-
   Since a self signed SSL certificate is used, your browser will show a security warning when accessing the page for the first time. You need to manually accept it to continue.
 developer: Brave Software
 website: https://brave.com/
-submitter: dennysubke
+submitter: Jovanio-Junior
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/linuxserver/docker-brave
 support: https://github.com/linuxserver/docker-brave/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-brave/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-brave/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-brave/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-brave/4.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-brave/1.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-brave/2.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-brave/3.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-brave/4.jpg
 releaseNotes: >-
   This version addresses multiple stability issues, including crashes related to the shields panel and Google sign-in navigation. It also resolves a problem with importing from Trezor wallets when Trezor Connect is outdated. Additionally, Chromium has been updated to version 137.0.7151.119.
 dependencies:

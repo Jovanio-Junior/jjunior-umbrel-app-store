@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jovanio-stremio
 name: Stremio
 tagline: An all-in-one streaming hub for all your entertainment needs
-icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/logo.png
+icon: https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/logo.png
 category: media
 version: "1.1.118"
 port: 10470
@@ -25,16 +25,16 @@ description: >-
   ⚠️ The Stremio Web Player and the associated server run in the same container and are by default accessible through ports 10470 for the Web Player and 11470 for the server. Simply enter the system's LAN IP address in the Stremio settings to configure the streaming server.
 developer: Stremio
 website: https://www.stremio.com/
-submitter: dennysubke
+submitter: Jovanio-Junior
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/tsaridas/stremio-docker
 support: https://github.com/tsaridas/stremio-docker/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-stremio/5.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/1.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/2.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/3.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/4.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-stremio/5.jpg
 releaseNotes: >-
   The latest release, v1.1.118, includes improvements and updates such as Web version v5.0.0-beta.21, with a server URL at https://dl.strem.io/server/v4.20.8/desktop/server.js.
 dependencies:

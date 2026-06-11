@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: jovanio-tldraw_web_1
+      APP_PORT: 80
+
+  web:
+    image: jumbrelappson/tldraw:5.1.0@sha256:6b18d2a003684548ade13a5da2a6d53f404dc72d1e6a268e9a5ec33d4abea7b2
+    restart: on-failure

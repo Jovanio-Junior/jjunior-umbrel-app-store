@@ -2,7 +2,7 @@ manifestVersion: 1
 id: jovanio-tasktrove
 name: TaskTrove
 tagline: A task manager that respects your privacy
-icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/logo.png
+icon: https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/logo.png
 category: files & productivity
 version: "0.3.0"
 port: 3493
@@ -16,16 +16,16 @@ description: >-
   The application is built with privacy in mind and avoids unnecessary tracking or telemetry. It encourages a personal and distraction free workflow where the user stays in full control of their information. Its flexibility makes it suitable for different styles of productivity whether that means a simple checklist for everyday errands or a structured system for managing multiple projects at once.
 developer: Mushroom Theory Inc.
 website: https://tasktrove.io/
-submitter: dennysubke
+submitter: Jovanio-Junior
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/dohsimpson/TaskTrove
 support: https://github.com/dohsimpson/TaskTrove/issues
 gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/4.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-tasktrove/5.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/1.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/2.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/3.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/4.jpg
+  - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tasktrove/5.jpg
 releaseNotes: >-
   TaskTrove v0.3.0 introduces support for nested projects and an adaptive recurring mode that adjusts based on task completion dates.
 
