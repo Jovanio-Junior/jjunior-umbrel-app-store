@@ -7,5 +7,7 @@ services:
       APP_PORT: 80
 
   web:
-    image: jumbrelappson/tldraw:5.1.0@sha256:6b18d2a003684548ade13a5da2a6d53f404dc72d1e6a268e9a5ec33d4abea7b2
+    image: jumbrelappson/tldraw:5.1.0-sync.1@sha256:1bd87b0d256d8769d1f0c17896bd29a121264ae3cbda7e0d90024cc798482e75
     restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

@@ -4,7 +4,7 @@ name: tldraw
 tagline: An intuitive whiteboard for ideas
 icon: https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tldraw/logo.png
 category: files & productivity
-version: "5.1.0"
+version: "5.1.0-sync.1"
 port: 8505
 description: >-
   🎨 tldraw is an open-source, browser-based digital whiteboard designed to empower users to express their ideas visually, whether through sketching, diagramming, or collaborative brainstorming. It provides an intuitive, clean canvas where users can draw freely, create shapes, add text, and import images — all without the need for installation or complex setup. The interface is minimalist yet functional, ensuring that the creative process remains smooth and distraction-free.
@@ -22,7 +22,7 @@ description: >-
   Overall, tldraw stands out as a versatile, user-friendly, and customizable tool that bridges the gap between casual drawing apps and professional diagramming software. Its blend of simplicity, power, and openness makes it a compelling choice for anyone looking to think visually, whether alone or with a team.
 
 
-  This Umbrel package serves a standalone local tldraw editor with browser persistence. It does not include a multiplayer sync backend.
+  This Umbrel package serves a standalone local tldraw editor with a self-hosted sync backend. Rooms are shared across browsers through the same Umbrel URL and persisted on disk in SQLite.
 developer: Steve Ruiz
 website: https://www.tldraw.com/
 submitter: Jovanio-Junior
@@ -34,7 +34,7 @@ gallery:
   - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tldraw/2.jpg
   - https://raw.githubusercontent.com/Jovanio-Junior/jjunior-umbrel-app-gallery/main/jovanio-tldraw/3.jpg
 releaseNotes: >-
-  Updated the container image to a custom Jovanio build based on tldraw 5.1.0. The image serves a minimal Vite/React tldraw app through Nginx and stores drawings in the browser using a local persistence key.
+  Replaced browser-only local persistence with a self-hosted tldraw sync server. The container now runs a Vite/React client plus a Node/Fastify WebSocket backend using SQLite storage under /app/data, so the same room can be opened from different browsers or devices.
 dependencies:
 path: ""
 defaultUsername: ""
